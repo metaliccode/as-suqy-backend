@@ -1,0 +1,11 @@
+Langkah2 membuat API di Laravel :
+- Buat Helper Response formatter (Struktur API)
+- Buat Folder API di Controller -> buat (ResponseFormatter.php)
+- buat API sesuai data Base : misal 1 membuat api controller untuk product
+	php artisan make:controller API\\ProductController 
+- di dalam file ketik product panggil Model Product (sesuai dengan model yang telah di buat) 
+- setelah membuat API product panggil di routes API 
+- jika ingin membuat POST -> memnggunakan validasi sprt Checkout 
+	php artisan make:request API\\checkoutController
+- install laravel cors agar api bisa di cek dimana saja
+- buat post man dokumentasi
