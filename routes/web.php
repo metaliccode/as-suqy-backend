@@ -19,6 +19,12 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes(['register' => false]);
 
+// untuk logout
+Route::get('logout', function () {
+    Auth::logout();
+    return Redirect::to('/login');
+});
+
 Route::get('/', 'DashboardController@index')->name('dashboard');
 
 // harus di atas resources
