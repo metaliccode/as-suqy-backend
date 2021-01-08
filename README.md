@@ -4,6 +4,6 @@ Aplikasi web toko online yang dibuat menggunakan laravel 7, aplikasi ini merupak
 # System Requrement
 - Git (for cloning project)
 - PHP >= 5.6.4
-- Composer
+- Composer Install
 - MySQL/SQL
 

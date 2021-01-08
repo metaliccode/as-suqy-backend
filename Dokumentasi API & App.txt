@@ -1,0 +1,11 @@
+URL Dokumentasi API Aplikasi Assuqy :
+
+Langsung dengan Link :
+https://documenter.getpostman.com/view/11358474/TVzLozYk
+
+import link :
+https://www.getpostman.com/collections/91ae54fb6be7166060e0
+
+login :
+informatika15
+mursiltester@gmail.com
